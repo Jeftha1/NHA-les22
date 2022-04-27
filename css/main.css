@@ -1,0 +1,55 @@
+body{
+	background-color: azure;
+}
+
+img {
+	width:  250px;
+	height:  250px;
+	margin:  5px;
+}
+
+#afbeeldingen{
+	margin-left:  auto;
+	margin-right:  auto;
+	margin-bottom:  250px;
+}
+
+footer{
+	min-height:  200px;
+	padding:  10px;
+	background-color: slategray;
+	color:  ivory;
+}
+
+#formulier{
+	max-width:  600px;
+	margin-left:  auto;
+	margin-right:  auto;
+	margin-top:  10px;
+}
+
+@media only screen and (max-width:  768px) {
+	#formulier{
+		margin-left:  50px;
+		margin-right:  50px;
+	}
+}
+
+.accordion{
+	max-width:  600px;
+	margin-left:  auto;
+	margin-right:  auto;
+	margin-top:  50px;
+}
+
+@media only screen and (max-width:  768px) {
+	.accordion{
+		margin-left:  50px;
+		margin-right:  50px;
+	}
+}
+
+#titel{
+	text-align:  center;
+	margin-top:  10px;
+}
